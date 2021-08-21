@@ -75,12 +75,12 @@
 			children = (
 				1D55F77826CC656D00ED4066 /* AppDelegate.swift */,
 				1D55F77A26CC656D00ED4066 /* SceneDelegate.swift */,
+				1D55F79826CE612800ED4066 /* Constants.swift */,
 				1D55F79726CE608700ED4066 /* Controllers */,
 				1D55F79626CE606C00ED4066 /* Views */,
 				1D55F79526CE604F00ED4066 /* Models */,
 				1D55F78126CC657000ED4066 /* Assets.xcassets */,
 				1D55F78626CC657000ED4066 /* Info.plist */,
-				1D55F79826CE612800ED4066 /* Constants.swift */,
 			);
 			path = pokedexFinal;
 			sourceTree = "<group>";
@@ -118,7 +118,6 @@
 				02CD627E83D18B8255367CCF /* Pods-pokedexFinal.debug.xcconfig */,
 				4B518352AA71AB6A9C510352 /* Pods-pokedexFinal.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -141,7 +140,6 @@
 				1D55F77126CC656D00ED4066 /* Sources */,
 				1D55F77226CC656D00ED4066 /* Frameworks */,
 				1D55F77326CC656D00ED4066 /* Resources */,
-				41C930B12B4F2836009B4E72 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -179,7 +177,7 @@
 			);
 			mainGroup = 1D55F76C26CC656D00ED4066;
 			packageReferences = (
-				1D55F79226CD2C1400ED4066 /* XCRemoteSwiftPackageReference "Kingfisher.git" */,
+				1D55F79226CD2C1400ED4066 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = 1D55F77626CC656D00ED4066 /* Products */;
 			projectDirPath = "";
@@ -204,23 +202,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		41C930B12B4F2836009B4E72 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-pokedexFinal/Pods-pokedexFinal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-pokedexFinal/Pods-pokedexFinal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pokedexFinal/Pods-pokedexFinal-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		BDD3FC3C3CF1910594672C5E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -462,7 +443,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		1D55F79226CD2C1400ED4066 /* XCRemoteSwiftPackageReference "Kingfisher.git" */ = {
+		1D55F79226CD2C1400ED4066 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
 			requirement = {
@@ -475,7 +456,7 @@
 /* Begin XCSwiftPackageProductDependency section */
 		1D55F79326CD2C1400ED4066 /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 1D55F79226CD2C1400ED4066 /* XCRemoteSwiftPackageReference "Kingfisher.git" */;
+			package = 1D55F79226CD2C1400ED4066 /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */

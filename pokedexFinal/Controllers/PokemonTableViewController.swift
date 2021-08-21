@@ -18,8 +18,7 @@ class PokemonTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.title = "POKEDEX🐛"
-        
+        navigationItem.title = K.appName
         guard let url = URL(string: "https://pokeapi.co/api/v2/pokemon?limit=151") else {
             return
         }

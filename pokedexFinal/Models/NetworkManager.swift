@@ -9,9 +9,9 @@ import Foundation
 
 
 class NetworkManager{
-    var pokemon: [PokemonListResult] = []
+    var pokemon = [PokemonListResult]()
     
-    func APICall(){
+    func loadPokemon(){
         
         guard let url = URL(string: "https://pokeapi.co/api/v2/pokemon?limit=151") else {
             return
