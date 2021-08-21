@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D37827326D1580300F68A97 /* Readme.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1D37827226D1580300F68A97 /* Readme.rtf */; };
 		1D55F77926CC656D00ED4066 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D55F77826CC656D00ED4066 /* AppDelegate.swift */; };
 		1D55F77B26CC656D00ED4066 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D55F77A26CC656D00ED4066 /* SceneDelegate.swift */; };
 		1D55F77D26CC656D00ED4066 /* PokemonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D55F77C26CC656D00ED4066 /* PokemonViewController.swift */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		02CD627E83D18B8255367CCF /* Pods-pokedexFinal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pokedexFinal.debug.xcconfig"; path = "Target Support Files/Pods-pokedexFinal/Pods-pokedexFinal.debug.xcconfig"; sourceTree = "<group>"; };
+		1D37827226D1580300F68A97 /* Readme.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Readme.rtf; sourceTree = "<group>"; };
 		1D55F77526CC656D00ED4066 /* pokedexFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokedexFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D55F77826CC656D00ED4066 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1D55F77A26CC656D00ED4066 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 		1D55F77726CC656D00ED4066 /* pokedexFinal */ = {
 			isa = PBXGroup;
 			children = (
+				1D37827226D1580300F68A97 /* Readme.rtf */,
 				1D55F77826CC656D00ED4066 /* AppDelegate.swift */,
 				1D55F77A26CC656D00ED4066 /* SceneDelegate.swift */,
 				1D55F79826CE612800ED4066 /* Constants.swift */,
@@ -195,6 +198,7 @@
 			files = (
 				1D55F78526CC657000ED4066 /* LaunchScreen.storyboard in Resources */,
 				1D55F78226CC657000ED4066 /* Assets.xcassets in Resources */,
+				1D37827326D1580300F68A97 /* Readme.rtf in Resources */,
 				1D55F78026CC656D00ED4066 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
